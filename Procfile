@@ -1,1 +1,1 @@
-web: bin/limofy
+web: bin/go-getting-started
