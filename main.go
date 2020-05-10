@@ -36,5 +36,5 @@ func main() {
 		// ctx.JSON(iris.Map{"message": "Hello Iris!"})
 		ctx.JSON(simonMap)
 	})
-	app.Run(iris.Addr(":80")) //8080 监听端口
+	app.Run(iris.Addr(":5000")) //8080 监听端口
 }
