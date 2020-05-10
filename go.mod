@@ -10,9 +10,9 @@ require (
 	github.com/eknkc/amber v0.0.0-20171010120322-cdade1c07385 // indirect
 	github.com/fatih/structs v1.1.0 // indirect
 	github.com/flosch/pongo2 v0.0.0-20190707114632-bbf5a6c351f4 // indirect
-	github.com/gin-gonic/gin v0.0.0-20150626140855-4cc2de6207f4
+	github.com/gin-gonic/gin v0.0.0-20150626140855-4cc2de6207f4 // indirect
 	github.com/gorilla/schema v1.1.0 // indirect
-	github.com/heroku/x v0.0.0-20171004170240-705849e307dd
+	github.com/heroku/x v0.0.0-20171004170240-705849e307dd // indirect
 	github.com/iris-contrib/blackfriday v2.0.0+incompatible // indirect
 	github.com/iris-contrib/formBinder v5.0.0+incompatible // indirect
 	github.com/iris-contrib/go.uuid v2.0.0+incompatible // indirect
