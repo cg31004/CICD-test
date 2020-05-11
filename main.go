@@ -21,7 +21,7 @@ func main() {
 	// 请求方式: GET
 	// 请求地址: http://localhost:8080/ping
 	app.Get("/ping", func(ctx iris.Context) {
-		ctx.WriteString("pong2")
+		ctx.WriteString("pong")
 	})
 
 	simonMap := make(map[string]string)
