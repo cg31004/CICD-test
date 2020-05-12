@@ -13,7 +13,7 @@ func main() {
 	//输出html
 	// 请求方式: GET
 	// 访问地址: http://localhost:8080/welcome
-	app.Handle("GET", "/welcome", func(ctx iris.Context) {
+	app.Handle("GET", "/", func(ctx iris.Context) {
 		ctx.HTML("<h1>Welcome</h1>")
 	})
 	//输出字符串
@@ -21,7 +21,7 @@ func main() {
 	// 请求方式: GET
 	// 请求地址: http://localhost:8080/ping
 	app.Get("/ping", func(ctx iris.Context) {
-		ctx.WriteString("pong21")
+		ctx.WriteString("pong")
 	})
 
 	simonMap := make(map[string]string)
@@ -36,5 +36,5 @@ func main() {
 		// ctx.JSON(iris.Map{"message": "Hello Iris!"})
 		ctx.JSON(simonMap)
 	})
-	app.Run(iris.Addr(":5000")) //8080 监听端口
+	app.Run(iris.Addr(":8080")) //8080 监听端口
 }
